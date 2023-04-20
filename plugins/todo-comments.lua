@@ -13,5 +13,8 @@ return {
       },
     },
     event = "User AstroFile",
+    keys = {
+      { "<leader>xt", "<cmd>TodoTrouble<cr>", desc = "Show TODOs" },
+    },
   },
 }
