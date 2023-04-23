@@ -22,7 +22,7 @@ return {
       },
       overrides = function(colors)
         return {
-          CursorLineNr = { fg = "#11AE91", italic = true },
+          CursorLineNr = { fg = "#11AE91", italic = true, bold = true },
         }
       end,
     },
