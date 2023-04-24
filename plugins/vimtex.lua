@@ -6,5 +6,8 @@ return {
       vimtex_compiler_method = "latexmk",
     },
     ft = "tex",
+    keys = {
+      { "<leader>lc", "<Plug>(vimtex-compile)", desc = "Compile LaTeX" },
+    },
   },
 }
