@@ -5,6 +5,7 @@ return {
     opts = {},
     event = "User AstroFile",
     keys = {
+      { "<leader>x", "<cmd><cr>", desc = "Trouble" },
       { "<leader>xx", "<cmd>TroubleToggle<cr>", desc = "Toggle Trouble" },
     },
   },
